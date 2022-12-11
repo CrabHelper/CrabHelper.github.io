@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crab Helper</title>
     <link rel="icon" href="../images/crabicon.png">
-    <script src="./script.js"></script>
+    <script>
+        window.addEventListener("load", () => {
+            document.getElementById('yeet').innerHTML = `<iframe src="https://crazyalgebra.com/" height="${window.innerHeight}" width="${window.innerWidth}" frameborder="0"></iframe>`
+        });
+    </script>
 </head>
 <body>
     <div id="yeet"></div>
