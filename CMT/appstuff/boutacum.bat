@@ -1,7 +1,7 @@
 @echo off
 set "file=track12.mp3"
 ( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
-  echo Sound.URL = "%userprofile%\desktop\customfiles\Im bout to cum with choir.mp3"
+  echo Sound.URL = "%userprofile%\desktop\customfiles\cumchoir.mp3"
   echo Sound.Controls.play
   echo do while Sound.currentmedia.duration = 0
   echo wscript.sleep 100
